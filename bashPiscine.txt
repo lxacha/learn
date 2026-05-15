@@ -1,0 +1,23 @@
+Navigation de fichiers:
+ls, cd, pwd, mkdir, rm, cp, mv, cat, touch, chmod, find
+
+Permissions:
+chmod 755 fichier
+ls -la
+
+git 
+git init, git add, git commit, git push, git pull, git status
+
+redirections & pipes:
+
+echo "text" > fichier
+cat fichier | grep"mot"
+ls >> liste.txt
+
+Scripts bash
+
+#!/bin/bash
+if [ condition ]; then
+for i in ...; do
+while [ condition ]; do
+
