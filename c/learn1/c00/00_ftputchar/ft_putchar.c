@@ -2,10 +2,13 @@
 #include <unistd.h>
 
 
+void ft_putchar(char c)
+{
+	write(1,&c,1);
+}
 
-int main(char *a){
-	char b =  a[1];
-	void ft_putchar(char b);
-	write(1,&b,1);
+int main(int argc, char **argv)
+{
+	ft_putchar(argv[0][10]);
 	return 0;
 }
