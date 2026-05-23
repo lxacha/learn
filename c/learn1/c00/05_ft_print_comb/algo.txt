@@ -1,0 +1,31 @@
+liste alr_print
+
+0,1,2,3,4,5,6,7,8,9
+
+
+01
+02
+03
+
+
+11
+12
+30
+
+
+21	12
+ab	cd
+
+2  1      12	1  2      12
+a>b -> ba		c>d -> cd
+
+1-2 = -1		1-2=-1
+b-a = e		c-d=f
+
+si e = f on ajoute pas la combinaison cd
+
+
+
+
+
+
