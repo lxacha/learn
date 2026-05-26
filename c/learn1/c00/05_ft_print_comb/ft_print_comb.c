@@ -13,13 +13,11 @@ void ft_print_comb(void)
 		a = realloc(a,taille * sizeof(int));
         	a[i] = i;
 		taille++;
-        	printf("%d\n",a[i]);
-        }
+				 }
 
 	int ab[999][3]= {0};		/*liste de 999 listes de 3 int */
-
-	for (int i=0; i < max; i++ ) 	/* pour tant que il n'y a pas eu plus 999 repetition*/
-	{
+	int abplus[999]={0};		/*list de 999 int (ref prime addition)*/
+	for (int i=0; i < max; i++ ){ 	/* pour tant que il n'y a pas eu plus 999 repetition*/	
 
 		int backa = a[i];	/* backup de la valeur de i dans la liste a*/
 		int  primesin[3] = {0}; /*liste de 3 int*/
@@ -44,13 +42,52 @@ void ft_print_comb(void)
 		ab[i][2] = primesin[2];
 
 
-	printf("%d,%d,%d\n",ab[i][0],ab[i][1],ab[i][2]);
+	abplus[i] = ab[i][0]+ab[i][1]+ab[i][2];
+				}
+
+
+	int *cloneabplus= NULL; 
+	int sca  = 1;
+	int *finalprimes= NULL;
+	int sfp = 1;
+	
+	for (int i= 0;i<max;i++){
+		cloneabplus = realloc(cloneabplus,sca * sizeof(int));
+		cloneabplus[i] = abplus[i];
+		sca++;
+				}
+				
+	for (int i= 0;i< max;i++){                         /*loop that goes through every nb*/
+                if (cloneabplus[i] == -1){                      /*si nb in cloneabp = -1 brise la loop*/
+                continue;
+
+                }
+		
+		for (int x = i + 1;x<max;x++){			/*loop that permits to compare every nb to every nb*/
+		if (abplus[i] == cloneabplus[x]){		/*si abp i et cloneabplus eg marque cloneabplus=-1 */
+		 cloneabplus[x] = -1;				/**/
+		}		
+	
+	
+
+					}		
+				}
+
+	for (int i= 0;i<max;i++){
+		
+		if (cloneabplus[i] != -1){
+		finalprimes = realloc(finalprimes,sfp *sizeof(int));
+		finalprimes[sfp - 1] = a[i];
+		sfp++;
+					}
+		
 	}
 
+
+for (int j = 0; j < sfp - 1; j++){
+    printf("%d\n", finalprimes[j]);
 }
-
-
-
+}
 int main(void)
 {
 	ft_print_comb();
