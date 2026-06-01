@@ -2,22 +2,22 @@
 #include <unistd.h>
 #include <stdlib.h>
 
-void ft_print_comb(void){
-	int *c = NULL;
-	int lc = 1;
-	c = realloc(c,lc * sizeof(int));
+void ft_print_comb(void){ //declaration fonction comb
+	int *c = NULL; //liste 
+	int lc = 1;//longueur liste
+	c = realloc(c,lc * sizeof(int));//realoc taille liste
 
 		
 
-	for (int i =0;i<1000;i++){
-		lc++;
-		c[i] = i;
-		c =realloc(c,lc* sizeof(int));
+	for (int i =0;i<1000;i++){//
+		lc++;//
+		c[i] = i;//
+		c =realloc(c,lc* sizeof(int));//
 
 		}
 	
-	int *a= NULL;
-	int la= 1;          
+	int *a= NULL;//
+	int la= 1;     //     
 
 	a = realloc(a,la * sizeof(int));
 	int Ao  = 5;

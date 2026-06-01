@@ -1,0 +1,16 @@
+#include <stdio.h> include <unistd.h> include <stdlib.h>
+
+void ft_print_comb(void){
+	int *c = NULL;
+	int lc = 1;
+	c = realloc(c,lc * sizeof(int));
+
+		
+
+	for (int i =0;i<1000;i++){
+		lc++;
+		c[i] = i;
+		c =realloc(c,lc* sizeof(int));
+		printf("%d\n",c[i]);
+		}
+	

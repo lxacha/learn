@@ -12,13 +12,14 @@ for(y=0;y<800;y++){
 	lenghtlist++;
 	liste = realloc(liste,lenghtlist * sizeof(int));
 	liste[y] = y;
+//	printf("%d\n",liste[y]);
 }
 
 for(i=0;i<800;i++){
 	int A=liste[i]/100; //7
 	int b=liste[i]/10 ; //78
 	int c=liste[i]; //789
-
+	
 	int B = b - A*10;
 	int C = c - b*10; 	
 
