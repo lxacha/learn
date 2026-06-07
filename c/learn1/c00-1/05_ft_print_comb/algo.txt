@@ -1,0 +1,14 @@
+
+
+
+la fonction doit afficher toute 
+les combinaisons de trois chiffres
+differentes.
+
+dans l'ordre croissant donc
+123
+x231
+
+la derniere valeur sera donc 789
+
+
