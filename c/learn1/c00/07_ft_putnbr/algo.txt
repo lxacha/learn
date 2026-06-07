@@ -1,0 +1,12 @@
+
+
+
+la variable doit renvoyer un int 
+compris entre 
+
+-2,147,483,648.
+et 
+ 2 147 483 647.
+
+
+pas de fonctions a l'exception de write.
