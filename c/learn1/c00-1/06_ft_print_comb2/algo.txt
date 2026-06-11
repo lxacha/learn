@@ -1,0 +1,59 @@
+
+fonctions qui affiche toutes 
+les combinaisons de deux nombres 
+entre 0 et 99 pas de repetition ??
+00 01
+00 02
+ect
+
+8526 xx xx
+
+parcourir de 00 a 99
+03 46
+ab cd
+
+if a<b<c<d
+ write
+??
+
+
+
+ A = 8
+ B = 85
+ C = 852
+ D = 8526
+
+ a = A = 8
+ b = B - A*10 = 5  
+ c = C - B*10 = 2
+ d = D - C*10 = 6
+
+ce qui importe est ab < cd.
+Les combinaisons sont de 2 element 
+
+AB = B
+
+CD = i - B*100
+
+ft
+ 
+	static i
+	if i < 100{
+	int y = 0
+	ftx
+	} 
+	
+
+
+	ft()
+
+
+
+
+ftx()
+
+conversion of individual digits into chars
+
+
+
+

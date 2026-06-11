@@ -11,4 +11,13 @@ x231
 
 la derniere valeur sera donc 789
 
+il n'est pas possible d'utiliser les
+fonctions while, for.
+Pour proceder , nous n'avons donc
+pas d'autres choix que d'utiliser
+la recursivite
+
+le premier defis ,sera de faire 
+en sorte de garder trace du nombre
+d'iterations.  
 
