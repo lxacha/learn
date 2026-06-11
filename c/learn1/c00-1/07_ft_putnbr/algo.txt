@@ -1,0 +1,33 @@
+-2 147 483 648 
+
+int doit etre compris entre
+
+2 147 483 647
+
+
+void ft_putnbr(int nb){
+	write(1,&nb,1)
+}
+
+void check_end(){
+	static int i=0;
+	
+	
+        if(a<=9 || a>=-9){
+	
+        ft_putnbr(a);
+        i++;
+        }	
+
+}
+
+void main(int argc,char *argv[]){
+	
+	check_end(argv[1]);
+	
+
+}
+
+
+
+
