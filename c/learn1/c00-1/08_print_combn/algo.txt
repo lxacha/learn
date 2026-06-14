@@ -1,0 +1,99 @@
+
+ft_print_combn(n){
+	
+	
+}
+
+
+probleme : comparer les chiffres 
+les uns aux autres peut importe
+l'echelle finale definis par 
+l'input.
+
+
+
+
+
+
+
+
+
+ft_print_combn(int n)
+
+while(i<n){ // nbdigi = 100 pour n= 2 
+	    // ou 10 pour n = 1 
+
+}
+
+while(y<nbdigi){
+	char chaY = //conversion y en
+		    // char	 
+ 	
+	
+		write(1,&chaY,1) // ecris chaY
+				// 1 ch 1 fois
+	
+}
+
+
+check_ascend(y){
+	
+
+}
+
+./combn 3
+
+a = 3
+n =3
+
+i=0
+
+while//
+
+nbdigi = 1000
+
+y=0
+
+while y<nbdigi
+y = 0,1,2 ... 789, 999
+check_ascend(y,n,nbdigi);
+	     x,3,1000
+	
+
+check_ascend(yp,nba,nbdivi);
+		//yp = 728
+	nbdivi = nbdivi /10;
+	A = yp / nbdivi; // 7
+	b = yp - nbdivi * A; 28
+	
+	
+	
+	
+void function1(){
+
+	int a = 123;
+	function2(a);
+}
+
+void function2(char *a[]){
+
+
+}
+void main(){
+	function1();
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
