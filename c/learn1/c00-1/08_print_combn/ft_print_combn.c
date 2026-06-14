@@ -37,7 +37,7 @@ int check_ascend(int yp,int nba,int nbdigi2){   // yp 789 ,  nba 3, nbdigi2 1000
 		iter++;
 
 		ldig[1][iter] = Aa;
-		write(1,&ldig[1][iter != 0],1);
+		write(1,&ldig[1][iter],1);
 	}
 	}
 
