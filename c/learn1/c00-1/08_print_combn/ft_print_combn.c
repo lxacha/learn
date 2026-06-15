@@ -30,7 +30,8 @@ int check_ascend(int yp,int nba,int nbdigi2){   // yp 789 ,  nba 3, nbdigi2 1000
 	if(nba != 0){
 	if(iter <= nba){      // 1 ..  2  .. 3
 		while(nbdigi2>yp){
-		nbdigi2 = nbdigi2 /10;
+
+ 		nbdigi2 = nbdigi2 /10;
 		}
 
 		int Aa = yp/nbdigi2;
