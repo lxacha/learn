@@ -3,9 +3,8 @@
 
 void ft_swap(int *a,int *b){
 	int Aa = *a;
-	int Bb = *b;
 	
-	*a = Bb;
+	*a = *b;
 	*b = Aa;
 	
 	printf("%d\n%d\n",*a,*b);
