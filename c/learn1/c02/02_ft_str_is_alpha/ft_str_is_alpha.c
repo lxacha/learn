@@ -52,11 +52,11 @@ int ft_str_is_alpha(char *str){
                                 }
 				continue;
 			}
-			} //printf("%d\n",fin);
-
-			if(i == a){
+		} //printf("%d\n",fin);
+		i++;
+		if(i == a){
 			break;
-			}
+		}
 	}
 	printf("%d\n",fin);
 }
@@ -65,5 +65,5 @@ void main(){
 	char *a = "something";
 	char *b = "some98ing";
 
-	ft_str_is_alpha(a);
+	ft_str_is_alpha(b);
 }
